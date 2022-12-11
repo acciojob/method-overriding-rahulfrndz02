@@ -11,7 +11,6 @@ public class Main {
             return "Invoking method from class A";
         }
     }
-
     static class B extends A {
         @Override
         public String meth() {
